@@ -7,4 +7,4 @@ Add the file and the folder in this way
 PokemonData.csv : /content/PokemonData.csv
 Pokemon : /content/Pokemon
 
-Run the code 
+Run the notebook
