@@ -24,8 +24,8 @@ pip install pandas numpy matplotlib scikit-learn pillow webcolors
 Ensure you have a CSV file containing Pokémon data and an image folder with Pokémon images.
 
 Make sure that this the path to the files in collab : 
-Pokemon : /content/Pokemon
-Pokemondata.csv : /content/PokemonData.csv
+- Pokemon : /content/Pokemon
+- Pokemondata.csv : /content/PokemonData.csv
 
 Then, run the script:
 ```python
