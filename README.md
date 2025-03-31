@@ -9,6 +9,9 @@ This project extracts the dominant color from Pokémon images using K-Means clus
 - Processes a dataset of Pokémon images and updates the CSV file with the detected colors.
 - Supports visualization of dominant color extraction.
 
+## Developer Advice
+Use google collab to avoid confusion
+
 ## Installation
 To use this project, ensure you have the following dependencies installed:
 
@@ -20,11 +23,10 @@ pip install pandas numpy matplotlib scikit-learn pillow webcolors
 ### 1. Running the Color Extraction
 Ensure you have a CSV file containing Pokémon data and an image folder with Pokémon images.
 
-Modify the script to point to your dataset:
-```python
-csv_file = "path/to/PokemonData.csv"
-img_folder = "path/to/PokemonImages"
-```
+Make sure that this the path to the files in collab : 
+Pokemon : /content/Pokemon
+Pokemondata.csv : /content/PokemonData.csv
+
 Then, run the script:
 ```python
 result_df = process_img(
